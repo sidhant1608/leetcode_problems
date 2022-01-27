@@ -36,6 +36,7 @@ if __name__ == '__main__':
     start_node = 1
     visited = DFS(G, start_node)
 
+    print(visited)
     if all(visited) == True:
         print("Return: This graph is connected!")
     else:
